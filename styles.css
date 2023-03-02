@@ -13,7 +13,7 @@
 
 
 
-/* ==================== Heading styling ==================== */
+/* ==================== Heading section styling ==================== */
 #header_div {
     background-image: url("./images/desktop/image-header.jpg");
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ header h1 {
     margin-top: 50px;
 }
 
-/* ==================== Top main styling ==================== */
+/* ==================== Top main section styling ==================== */
 #top_content {
     width: 100%;
 }
@@ -86,7 +86,9 @@ header h1 {
 .brand_info p {
     margin-top: 10px;
     margin-bottom: 10px;
+    padding: 10px;
     font-family: 'Barlow', sans-serif;
+    color:  hsl(210, 4%, 67%);
 }
 
 #sectionOneLink {
