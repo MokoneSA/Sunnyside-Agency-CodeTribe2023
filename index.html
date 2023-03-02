@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body onload="arrowDown()">
+  <div id="main_container">
+    <!-- Start of a heading section -->
+    <header>
+      <div id="header_div">
+        <table style="width: 100%">
+          <tr>
+            <td>
+              <a href="index.html" id="logo">
+                <img src="./images/logo.svg" width="100px"alt="logo">
+              </a>
+            </td>
+            <td align="right">
+              <nav id="top_nav">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a id="navContact" href="#">Contact</a>
+              </nav>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h1 id="mainHeading"></h1>
+              <img id="imgArrow" />
+            </td>
+          </tr>    
+        </table>
+      </div>
+    </header>
+    <!-- End of a heading section -->
+
+    <!-- Start of main section -->
+    <main>
+      <div id="top_content">
+        <table style="border-collapse: collapse;">
+          <tr>
+            <td class="brand_info">
+              <table style="width: 50%; margin: 0 auto; border-collapse: collapse;">
+                <tr>
+                  <td><h1 id="sectionOneHeading"></h1></td>
+                </tr>
+                <tr>
+                  <td><p id="sectionOnePara"></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a id="sectionOneLink" href="#"></a>
+                  </td>
+                </tr>   
+              </table>
+            </td>
+            <td id="sectionOneCol">
+              <img id="sectionOneImage" />
+            </td>
+          </tr>
+          <tr>
+            <td id="sectionTwoCol">
+              <img id="sectionTwoImage">
+            </td>
+            <td class="brand_info">
+              <table style="width: 80%; margin: 0 auto; border-collapse: collapse;">
+                <tr>
+                  <td>
+                    <h1 id="sectionTwoHeading"></h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p id="sectionTwoPara"></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a id="sectionTwoLink" href="#"></a>
+                  </td>
+                </tr>   
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+            <td id="row_three" class="services">
+              <table class="graphicDesignTable">
+                <tr>
+                  <td><h1 id="sectionThreeHeading1"></h1></td>
+                </tr>
+                <tr>
+                  <td><p id="sectionThreePara1">
+                 </p> </td>
+                </tr> 
+              </table>
+            </td>
+            <td id="rowThree1" class="services">
+              <table class="graphicDesignTable">
+                <tr>
+                  <td><h1 id="sectionThreeHeading2"></h1></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p id="sectionThreePara2"></p>
+                  </td>
+                </tr>  
+              </table>
+            </td>
+          </tr>
+        </table>
+
+          <!-- Clients Testimonials section -->
+        <table style="width: 100%; background-color: whitesmoke; height: 560px;">
+          <tr>
+            <td colspan="3" style="width:100%;">
+              <h3 id="client_header">Client testimonials</h3>
+            </td>
+          </tr>
+          <tr>
+            <!-- Testimony One -->
+            <td class="client_testi" style="width: 30%;">
+              <table id="first_client">
+                <tr>
+                  <td><img src="./images/image-emily.jpg"></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p> We put our trust in Sunnyside and they delivered,
+                     making sure our needs were met and deadlines were always hit.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Emily R.</h4>
+                    <p class="clientPar">Marketing Director</p>
+                  </td>
+                </tr>   
+              </table>
+            </td>
+            <!-- Testimony Two -->
+            <td class="client_testi" style="width: 30%;">
+              <table id="second_client">
+                <tr>
+                  <td><img src="./images/image-thomas.jpg"></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Sunnyside’s enthusiasm coupled with their keen interest in
+                      our brand’s success made it a satisfying and enjoyable experience.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Thomas S.</h4>
+                    <p class="clientPar">Chief Operating Officer</p>
+                  </td>
+                </tr>   
+              </table>
+            </td>
+            <!-- Testimony three -->
+            <td class="client_testi" style="width: 30%;">
+              <table id="third_client" style="margin: 0 auto;">
+                <tr>
+                  <td><img src="./images/image-jennie.jpg" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>Incredible end result! Our sales increased over
+                       400% when we worked with Sunnyside. Highly recommended!</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h4>Jennie F.</h4>
+                    <p class="clientPar">Business Owner</p>
+                  </td>
+                </tr>   
+              </table>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Images section -->
+        <table style="border-collapse: collapse; background-color: hsl(168, 34%, 41%);">
+          <tr>
+            <td><img src="./images/desktop/image-gallery-milkbottles.jpg" width="100%" ></td>
+            <td><img src="./images/desktop/image-gallery-orange.jpg" width="100%"></td>
+            <td><img src="./images/desktop/image-gallery-cone.jpg" width="100%"></td>
+            <td><img src="./images/desktop/image-gallery-sugarcubes.jpg" width="100%"></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <!-- End of main section -->
+
+    <!-- Start of a footer Section -->
+    <footer>
+      <table style="width: 100%; height: 200px; border-collapse: collapse;">
+        <tr>
+          <td style="width: 100%; margin-top: 30px;">
+            <h2 id="footer_logo">sunnyside</h2>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <nav id="footerNav">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Projects</a>
+            </nav>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div  id="footerSocial">
+              <a href="#" class="fa fa-facebook" style="font-size: 20px;"></a>
+              <a href="#" class="fa fa-twitter" style="font-size: 20px;"></a>
+              <a href="#" class="fa fa-instagram" style="font-size: 20px;"></a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="attribution">
+              <p>Bootcamp 2023 by
+              <a href="https://www.mlab.co.za" target="_blank">CodeTribe</a>. Developed
+              by <a href="https://mokonesa.github.io/CodeTribeBootCamp-2023/">Simon Lephoto - Portfolio</a>.</p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </footer>
+    <!-- End of footer section -->
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
+
+<!-- Source Frontend Mentor: https://www.frontendmentor.io -->

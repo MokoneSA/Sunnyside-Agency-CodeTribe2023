@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main_container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* ==================== Heading styling ==================== */
+#header_div {
+    background-image: url("./images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+#logo {
+    margin-left: 40px;
+}
+
+#top_nav {
+    margin-right: 35px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#navContact {
+    color: black;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#imgArrow {
+    display: block;
+    margin: 0 auto;
+    height: 90px;
+    margin-top: 50px;
+}
+
+/* ==================== Top main styling ==================== */
+#top_content {
+    width: 100%;
+}
+
+.brand_info {
+    background-color: whitesmoke;
+    width: 50%;
+}
+
+
+.brand_info h1 {
+    width: 80%;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.brand_info p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#sectionOneLink {
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+    margin-top: 50px;
+    text-transform: uppercase;
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+    border-radius: 30%;
+    color: black;
+}
+
+#sectionTwoLink {
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+    margin-top: 50px;
+    text-transform: uppercase;
+    border-bottom: 5px solid hsl(7, 99%, 70%);
+    border-radius: 30%;
+    color: black;
+}
+
+#sectionOneCol {
+    background-color: hsl(51, 100%, 49%);
+}
+
+#sectionTwoCol {
+    background-color: hsl(7, 99%, 70%);
+}
+
+
+/* ==================== Services styling ==================== */
+.graphicDesignTable {
+    width: 50%; 
+    margin: 0 auto; 
+    margin-top: 250px;
+    text-align: center;
+}
+
+#row_three {
+    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+}
+
+#rowThree1 {
+    background-image: url("./images/desktop/image-photography.jpg");
+    background-size: cover;
+}
+
+.services {
+    width: 50%;
+    height: 500px;
+    margin-bottom: 30px;
+}
+
+.services h1 {
+    color: hsl(167, 40%, 24%);
+    margin-bottom: 10px;
+
+}
+
+.services p {
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow', sans-serif;
+}
+
+
+/* ==================== Testimonial styling ==================== */
+#client_header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(210, 4%, 67%);
+}
+
+.client_testi img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.client_testi p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+}
+
+.client_testi h4 {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 1200;
+}
+
+.clientPar {
+    color: hsl(0, 0%, 100%);
+    font-size: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* ==================== Footer styling ==================== */
+footer {
+    background-color:hsl(168, 34%, 41%);
+}
+
+#footer_logo {
+    margin-top: 15px;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+}
+
+#footerNav {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#footerNav a {
+    color: hsl(167, 40%, 24%);
+}
+
+#footerSocial {
+    text-align: center;
+}
+
+#footerSocial a {
+    padding: 10px;
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+
+.attribution p {
+    color: hsl(167, 40%, 24%);
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+    font-family: 'Barlow', sans-serif;
+}
